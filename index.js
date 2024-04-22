@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 console.log("Hello World");
 let B = false, 
 I = false,
@@ -465,6 +466,8 @@ for (let col = 0; col < numColumns; col++) {
     }
 }
 =======
+=======
+>>>>>>> 825949dee406bd18ba69b1316272ca846e5ae6f4
 console.log("Hello World!");
 
     generateRandomNumber(75);
@@ -490,4 +493,7 @@ console.log("Hello World!");
             return console.log(`Random number is invalid.`);
         }
     }
+<<<<<<< HEAD
+>>>>>>> 825949dee406bd18ba69b1316272ca846e5ae6f4
+=======
 >>>>>>> 825949dee406bd18ba69b1316272ca846e5ae6f4
