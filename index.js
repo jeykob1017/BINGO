@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e399cc99756802fb8fa9574870a9d6007dea09f1
+>>>>>>> 65cf28099e605a3fce587d429e3563a7267aec94
 console.log("Hello World");
 let B = false, 
 I = false,
@@ -462,4 +470,44 @@ for (let col = 0; col < numColumns; col++) {
     for (let row = 0; row < cellValues.length / numColumns; row++) {
         document.querySelectorAll("td")[row * numColumns + col].textContent = cellValues[index++];
     }
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+}
+=======
+}
+=======
+=======
+>>>>>>> 825949dee406bd18ba69b1316272ca846e5ae6f4
+console.log("Hello World!");
+
+    generateRandomNumber(75);
+
+    function generateRandomNumber(max) {
+        // Return random number 0 to 10;
+        let randomNum = Math.floor(Math.random() * max) + 1;
+        // if...else if..else statement
+        // if (condition) {block of code to execute}
+        // ==, ! =, >, <, > =, < =, %%, ||
+
+        if(randomNum <= 15) {
+            return console.log(`Random number ${randomNum} is in B. 1 - 15`);
+        } else if(randomNum >= 16 && randomNum <=30){
+            return console.log(`Random number ${randomNum} is in I. 16 - 30`);
+        } else if (randomNum >= 31 && randomNum <= 45) {
+            return console.log(`Random number ${randomNum} is in N. 31 - 45`);  
+        } else if (randomNum >= 46 && randomNum <= 60) {
+            return  console.log(`Random number ${randomNum} is in G. 46 - 60`); 
+        } else if (randomNum >= 61 && randomNum <= 75) {
+            return  console.log(`Random number ${randomNum} is in O. 61 - 75`);    
+        } else {
+            return console.log(`Random number is invalid.`);
+        }
+    }
+<<<<<<< HEAD
+>>>>>>> 825949dee406bd18ba69b1316272ca846e5ae6f4
+=======
+>>>>>>> 825949dee406bd18ba69b1316272ca846e5ae6f4
+>>>>>>> e399cc99756802fb8fa9574870a9d6007dea09f1
+>>>>>>> 65cf28099e605a3fce587d429e3563a7267aec94
